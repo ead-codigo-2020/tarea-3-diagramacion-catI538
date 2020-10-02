@@ -1,0 +1,124 @@
+
+.algo:hover{
+    padding: 123px;
+}
+body{
+    padding: none; 
+    margin: none; 
+    
+}
+.titulo{
+     font-size: 60px; 
+     font-family:  sans-serif; 
+     color: white;
+     padding: 40px;
+     padding-right: 40%;
+     padding-top: 10%;
+}
+.lista1{
+    display: flex;
+    overflow: hidden;
+    background-color:#1E2E39;
+    text-align: left;
+    margin-top: 5px;
+    
+}
+.lista1 li{
+    float: left;
+    display: block;
+    color:white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: normal;
+    text-align: left;
+}
+.lista2 li{
+    float: right;
+    display: block;
+    color:white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.search-container{
+display: flex;
+padding-top: 20px;
+margin-right: 10px;
+
+}
+.lista3{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.5);
+    width: auto;
+    font-style: normal;
+    float: center;
+    
+
+}
+.lista3 li{ 
+    float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid grey;
+}
+.lista3 li:hover{
+background-color:rgb(32, 170, 204);
+
+}
+.vermas{
+    display: flex;
+    float: right;
+    color: white;
+    margin-bottom: 40%;
+    padding-right: 40px;
+    font-style: unset;
+    font-size: 20px;
+    
+}
+
+.container{
+    background: url(img/e.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.ndnav{
+    display: flex;
+}
+.ndnav p{
+    display: flex;
+}
+.ndnav li{
+    display: inline; 
+    list-style: none; 
+    color: rgb(32, 170, 204); 
+    font-weight: bold; 
+    font-size: 60px;
+}
+.parrafo4{ 
+    text-align: center;
+}
+.imgsos{ 
+    
+    text-align: center;
+}
+.cd{
+    margin: 40px; 
+    background-color: white;
+}
+.sostenibilidad{
+    background: url(img/g.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    padding: 10px;
+}
+.destacamos{
+    background-color: teal; 
+    padding: 40px;
+}
+.transparencia{
+    background-image:url(./img/a.jpg) ; 
+    padding: 40px;
+}
