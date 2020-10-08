@@ -1,7 +1,4 @@
 
-.algo:hover{
-    padding: 123px;
-}
 body{
     padding: none; 
     margin: none; 
@@ -42,9 +39,9 @@ body{
     font-size: 17px;
 }
 .search-container{
-display: flex;
-padding-top: 20px;
-margin-right: 10px;
+    display: flex;
+    padding-top: 20px;
+    margin-right: 10px;
 
 }
 .lista3{
@@ -58,16 +55,16 @@ margin-right: 10px;
 }
 .lista3 li{ 
     float: left;
-  display: block;
-  color:white;
-  text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-  font-size: 17px;
-  border: 1px solid grey;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid grey;
 }
 .lista3 li:hover{
-background-color:rgb(32, 170, 204);
+    background-color:rgb(32, 170, 204);
 
 }
 .vermas{
@@ -84,6 +81,7 @@ background-color:rgb(32, 170, 204);
 .container{
     background: url(img/e.jpg) no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
 }
 .ndnav{
     display: flex;
@@ -112,6 +110,7 @@ background-color:rgb(32, 170, 204);
 .sostenibilidad{
     background: url(img/g.jpg) no-repeat center center fixed ;
     background-size: cover;
+    background-attachment: scroll;
     padding: 10px;
 }
 .destacamos{
@@ -121,4 +120,60 @@ background-color:rgb(32, 170, 204);
 .transparencia{
     background-image:url(./img/a.jpg) ; 
     padding: 40px;
+}
+.facts-row {
+    position: relative;
+    min-height: 100vh;
+}
+.facts__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.facts-row .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    min-height: 100vh;
+}
+.facts-row__title {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+/* Listado de cifras */
+.facts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+/* Cada cifra */
+.fact {
+    display: grid;
+    grid-template-columns: 70px auto;
+    grid-template-rows: auto auto;
+    column-gap: 1rem;
+    flex: 33%;
+    max-width: 33%;
+    margin-bottom: 8rem;
+}
+.fact__icon {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    height: 70px;
+    float: center;
+    align-items: center;
+}
+.fact__number,
+.fact__label {
+    grid-column: 2/3;
+}
+.fact__label {
+    text-transform: uppercase;
+}
+.fact__number {
+    font-size: 3rem;
 }
