@@ -26,6 +26,7 @@ body{
     padding-right: 40%;
     padding-top: 10%;
 }
+/* INICIO */
 .lista1{
     display: flex;
     overflow: hidden;
@@ -36,7 +37,7 @@ body{
     float: left;
     display: block;
     color:white;
-    padding: 5px 20px;
+    padding: 5px 15px;
     text-decoration: none;
     font-size: 17px;
     font-style: normal;
@@ -46,7 +47,7 @@ body{
     float: right;
     display: block;
     color:white;
-    padding: 5px 20px;
+    padding: 5px 15px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -55,8 +56,7 @@ body{
     padding-top: 20px;
     margin-right: 10px;
     color: white;
-    background-color: black;
-
+    background-color: black
 }
 .lista3{
     display: flex;
@@ -136,22 +136,35 @@ body{
 }
 /* DESTACAMOS */
 .destacamos{
-    background-color: rgb(235, 235, 235); 
+    background-color: rgb(235, 235, 235);
     padding: 40px;
 }
 .d2{
     display: flex;
     margin: auto;
 }
-.d3{
+.img-satelite{
+    margin-left: 40px;
+    padding: 0px;
+}
+.texto-d3{
     margin-left: 30px;
-    margin-right: 30px;
+}
+.d3{
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.prensa-n1{
+    background-color: white;
+    width: 100%;
+    padding-left: 10px;
 }
 
 /* TRANSPARENCIA */
 
 .transparencia{
-    background-color: white ; 
+    background-color: white ;
     padding: 40px;
     display: flex;
 }
@@ -162,6 +175,15 @@ body{
     float: right;
     margin-left: 10%;
 }
+.links > a{
+    color: rgb(32, 170, 204);
+    text-decoration: none;
+    float: right;
+}
+.tra-1{
+    float: right;
+}
+
 
 /* REDES SOCIALES */
 .rrss{
@@ -173,12 +195,26 @@ body{
     margin: auto;
 }
 .r3{
-    margin-left: 30px;
+    padding-left: 20px;
     margin-right: 30px;
+    background-color: white;
 }
 /* PRENSA */
+.titulo-prensa{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+.vermas-noticias{
+    float: right;
+    font-size: 15px;
+    padding-left: 70px;
+}
 .sig{
     float: right;
+    margin-top: 10px;
+    margin-right: 40px;
 }
 /* Cifra */
 
@@ -210,6 +246,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-top: auto;
+    margin-left: 140px
 }
 /* Cada cifra */
 .fact {
@@ -236,22 +273,27 @@ body{
     text-transform: uppercase;
 }
 .fact__number {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* FOOTER*/
 
-.footer { grid-area: footer;
+.footer {
+    grid-area: footer;
     background-color: #000000;
     min-height: 100px;
     column-gap: none;
     row-gap: none;
     display: center;
-   }
+}
 .footer ul{
     display: inline-table;
     padding: 80px;
-}  
+}
+.nc{
+    background-color: darkgray;
+    text-align: center;
+}
 
 /* RESPONSIVE */
 
@@ -265,4 +307,3 @@ body{
     padding: 0px;
     margin: 0px;
   }
-  
