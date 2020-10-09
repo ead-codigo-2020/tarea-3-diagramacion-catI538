@@ -1,24 +1,36 @@
-
 body{
-    padding: none; 
-    margin: none; 
-    
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto Condensed", Helvetica, Arial, Helvetica, sans-serif;
+}
+.imagen-logo{
+    width: 200px;
+    height: 150px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 0px;
+}
+.lista-icons{
+    margin-left: 20%;
+}
+@media only screen and (max-width: 900px) {
+    .lista-icons{
+    margin-left: 60%;
+    }
 }
 .titulo{
-     font-size: 60px; 
-     font-family:  sans-serif; 
-     color: white;
-     padding: 40px;
-     padding-right: 40%;
-     padding-top: 10%;
+    font-size: 60px; 
+    font-family:  sans-serif; 
+    color: white;
+    padding: 40px;
+    padding-right: 40%;
+    padding-top: 10%;
 }
 .lista1{
     display: flex;
     overflow: hidden;
-    background-color:#1E2E39;
-    text-align: left;
-    margin-top: 5px;
-    
+    background-color:black;
+    text-align: left;   
 }
 .lista1 li{
     float: left;
@@ -42,6 +54,8 @@ body{
     display: flex;
     padding-top: 20px;
     margin-right: 10px;
+    color: white;
+    background-color: black;
 
 }
 .lista3{
@@ -50,8 +64,6 @@ body{
     width: auto;
     font-style: normal;
     float: center;
-    
-
 }
 .lista3 li{ 
     float: left;
@@ -74,15 +86,15 @@ body{
     margin-bottom: 40%;
     padding-right: 40px;
     font-style: unset;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
-
 .container{
-    background: url(img/e.jpg) no-repeat center center fixed;
+    background: url(img/t.jpg) no-repeat center center fixed;
     background-size: cover;
     background-attachment: scroll;
 }
+
+/* BARRA NAVEGACION */
 .ndnav{
     display: flex;
 }
@@ -96,31 +108,80 @@ body{
     font-weight: bold; 
     font-size: 60px;
 }
+/* SOSTENIBILIDAD */
+
 .parrafo4{ 
     text-align: center;
+    display: inline-flex;
+    margin: auto;
+    position: relative;
 }
-.imgsos{ 
-    
+.imgsos{
     text-align: center;
+    display: inline-flex;
+    margin: auto;
+    position: relative;
 }
 .cd{
     margin: 40px; 
     background-color: white;
 }
 .sostenibilidad{
-    background: url(img/g.jpg) no-repeat center center fixed ;
+    background: url(img/u.jpg) no-repeat center center fixed ;
     background-size: cover;
     background-attachment: scroll;
+    color: white;
     padding: 10px;
+    text-align: center;
 }
+/* DESTACAMOS */
 .destacamos{
-    background-color: teal; 
+    background-color: rgb(235, 235, 235); 
     padding: 40px;
 }
+.d2{
+    display: flex;
+    margin: auto;
+}
+.d3{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* TRANSPARENCIA */
+
 .transparencia{
-    background-image:url(./img/a.jpg) ; 
+    background-color: white ; 
     padding: 40px;
+    display: flex;
 }
+.t2{
+    float: left;
+}
+.t3{
+    float: right;
+    margin-left: 10%;
+}
+
+/* REDES SOCIALES */
+.rrss{
+    float: right;
+    margin-left: 10%;
+}
+.r2{
+    display: flex;
+    margin: auto;
+}
+.r3{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* PRENSA */
+.sig{
+    float: right;
+}
+/* Cifra */
+
 .facts-row {
     position: relative;
     min-height: 100vh;
@@ -177,3 +238,31 @@ body{
 .fact__number {
     font-size: 3rem;
 }
+
+/* FOOTER*/
+
+.footer { grid-area: footer;
+    background-color: #000000;
+    min-height: 100px;
+    column-gap: none;
+    row-gap: none;
+    display: center;
+   }
+.footer ul{
+    display: inline-table;
+    padding: 80px;
+}  
+
+/* RESPONSIVE */
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+.responsive1 {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  
